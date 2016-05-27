@@ -11,7 +11,7 @@
                            http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
 	
 	<context:annotation-config />
-	<context:component-scan base-package="com.youku.learn" />
+	<context:component-scan base-package="com.onlyfun.learn" />
 	<aop:aspectj-autoproxy/>
 
 </beans>
