@@ -1,0 +1,16 @@
+*.class
+.classpath
+.project
+target
+.settings
+*.orig
+.mymetadata
+.springBeans
+/WebContent/
+
+# Package Files #
+*.war
+*.ear
+
+/build/
+/src/main/webapp/WEB-INF/classes/
