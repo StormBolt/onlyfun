@@ -14,4 +14,12 @@
 	<context:component-scan base-package="com.onlyfun.learn" />
 	<aop:aspectj-autoproxy/>
 
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:rabbitmq-config.properties</value>
+			</list>
+		</property>
+	</bean>
+
 </beans>
