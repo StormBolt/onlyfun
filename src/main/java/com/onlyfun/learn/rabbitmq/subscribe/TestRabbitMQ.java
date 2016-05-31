@@ -1,4 +1,4 @@
-package com.onlyfun.learn.rabbitmq.Subscribe;
+package com.onlyfun.learn.rabbitmq.subscribe;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

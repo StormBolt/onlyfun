@@ -1,4 +1,4 @@
-package com.onlyfun.learn.rabbitmq.Subscribe;
+package com.onlyfun.learn.rabbitmq.subscribe;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
