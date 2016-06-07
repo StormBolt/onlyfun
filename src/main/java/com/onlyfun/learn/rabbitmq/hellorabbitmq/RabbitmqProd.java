@@ -1,4 +1,4 @@
-package com.onlyfun.learn.rabbitmq;
+package com.onlyfun.learn.rabbitmq.hellorabbitmq;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -21,7 +21,7 @@ public class RabbitmqProd{
     }
 
     public void sendMsg(String message) throws IOException{
-        logger.info(" [x] send '" + message + "'");
+        logger.info(" [x] SEND '" + message + "'");
         Channel channel = factory.getChannel();
         channel.basicPublish("",factory.getTopic(),null,message.getBytes());
     }
